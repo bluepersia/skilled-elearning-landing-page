@@ -55,7 +55,19 @@ body {
     line-height: 1.16em;
 }
 
+.body-1
+{
+    font-size: 1rem;
+    font-weight:var(--font-bold);
+    line-height: 1.75em;
+}
 
+.body-2 
+{
+    font-size: .875rem;
+    font-weight: var(--font-bold);
+    line-height: 2em;
+}
 
 .btn
 {
@@ -64,7 +76,7 @@ body {
     border:none;
     font-family: inherit;
     font-size: inherit;
-    transition: background-color 300ms, filter 300ms;
+    transition: background-color 300ms, filter 300ms, color 300ms;
     color: white;
 }
 
@@ -92,4 +104,17 @@ body {
 
  .btn-2:hover, .btn-3:hover{
     filter:brightness(120%);
+}
+
+
+.btn-4 
+{
+    color: var(--color-4);
+    background-color: transparent;   
+}
+
+.bt-4:hover 
+{
+    color: white;
+    background-color: var(--color-4);
 }
