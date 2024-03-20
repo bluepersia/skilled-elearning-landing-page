@@ -91,6 +91,7 @@ body {
     font-size: inherit;
     transition: background-color 300ms, filter 300ms, color 300ms;
     color: white;
+    cursor: pointer;
 }
 
 
