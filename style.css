@@ -127,6 +127,7 @@ body {
     color: var(--color-4);
     background-color: transparent;   
     padding: 0;
+    font-size: 1.125rem;
 }
 
 .bt-4:hover 
@@ -224,6 +225,7 @@ body {
         background-position: top -10% right -10%;
         background-size: contain;
         background-repeat: no-repeat;
+        margin-bottom: 7.31em;;
     }
 
     .header_top {
@@ -233,11 +235,19 @@ body {
     .hero_img-mobile {
         display: none;
     }
+    .main {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5.375em;
+    }
 
     .features {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 48.5% 48.5%;
         grid-template-rows: auto auto auto;
+        grid-column-gap: 1.5%;
+        grid-row-gap: 3.5em;
+        align-items: start;
     }
 
     .features_intro {
@@ -245,4 +255,78 @@ body {
         padding-top: 3.5em;
     }
 
+    .feature {
+        height: 100%;
+    }
+
+}
+
+
+
+@media (min-width: 1440px)
+{
+    .heading-1
+    {
+        font-size: 3.5rem;
+        line-height: 1.25em;
+    }
+
+    .heading-2 
+    {
+        font-size: 2.5rem;
+        line-height: 1.275em;
+    }
+
+    .heading-3 {
+        font-size: 2rem;
+        line-height: 1.25em;
+    }
+
+    .heading-4 
+    {
+        font-size: 1.5em;
+        line-height: 1.16em;
+    }
+
+    .body-1 
+    {
+        font-size: 1.125rem;
+        line-height: 1.55em;
+    }
+
+    .body-2 
+    {
+        font-size: 1rem;
+        line-height: 1.75em;
+    }
+
+    .btn 
+    {
+        font-size: 1.125rem;
+    }
+
+
+    .header {
+        padding: 1.81em 11.4% 11.25em;
+        background: url(./assets/image-hero-desktop@2x.webp);
+        background-position: top -10% right -10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 4.375em;
+    }
+
+    .main {
+        padding-left: 11.4%;
+        padding-right: 11.4%;
+        padding-bottom: 8.75em;
+    }
+    .features {
+        grid-template-columns: 31.5% 31.5% 31.5%;
+        grid-column-gap: 2%;
+    }
+
+
+    .footer {
+        padding: 2em 11.4%;
+    }
 }
